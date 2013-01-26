@@ -18,8 +18,8 @@ $(function() {
 	product_hotspots[2] = {x: 400, y:400, content: "This is the chestpiece"}
 	
 	var  hotspotFadeTimer = 1500; 		//Value reflects how fast the hotspots fade in;
-	var  contentFadeTimerIn = 500; 		//Value reflects how fast the content fades in;
-	var  contentFadeTimerOut = 500;		//Value reflects how fast the content fads out;
+	var  contentFadeTimerIn = 400; 		//Value reflects how fast the content fades in;
+	var  contentFadeTimerOut = 400;		//Value reflects how fast the content fads out;
 
 	//loop through each hotspot. 
 	$.each(product_hotspots,function(idx) {
